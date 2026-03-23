@@ -149,10 +149,28 @@ class _HomeScreenState extends State<HomeScreen> {
       padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
       child: Row(
         children: [
-          Text.rich(TextSpan(children: [
-            const TextSpan(text: 'BRI', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w900, fontSize: 18)),
-            const TextSpan(text: '\nmo', style: TextStyle(color: Colors.white, fontSize: 13, height: 0.7)),
-          ])),
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.end,
+            children: const[
+              Text(
+                'BRI',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.w900,
+                  fontSize: 18,
+                  height: 1.0,
+                ),
+              ),
+              Text(
+                'mo',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 13,
+                  height: 1.0,
+                ),
+              ),
+            ],
+          ),
           const SizedBox(width: 15),
           const Expanded(child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
