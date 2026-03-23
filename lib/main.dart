@@ -121,10 +121,14 @@ class _HomeScreenState extends State<HomeScreen> {
     return Stack(
       children: [
         Container(
-          height: 160, 
+          height: 250, 
           width: double.infinity,
           decoration: const BoxDecoration(
             color: BriTheme.primaryBlue,
+            borderRadius: BorderRadius.only(
+              bottomLeft: Radius.circular(30),
+              bottomRight: Radius.circular(30),
+            )
           ),
         ),
         SafeArea(
