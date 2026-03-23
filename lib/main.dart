@@ -219,7 +219,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 GestureDetector(onTap: () => setState(() => _hideBalance = !_hideBalance), child: Icon(_hideBalance ? Icons.visibility_off : Icons.visibility, color: Colors.white, size: 18)),
               ]),
               const SizedBox(height: 5),
-              Align(alignment: Alignment.centerLeft, child: Text(_hideBalance ? '••••••••' : 'Rp 100.000.000', style: const TextStyle(color: Colors.white, fontSize: 22, fontWeight: FontWeight.bold))),
+              Align(alignment: Alignment.centerLeft, child: Text(_hideBalance ? '••••••••' : 'Rp 900.000.000,00', style: const TextStyle(color: Colors.white, fontSize: 22, fontWeight: FontWeight.bold))),
               const Divider(color: Colors.white24, height: 30),
               const Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
                 Text('Semua Rekeningmu', style: TextStyle(color: Colors.white, fontSize: 13, fontWeight: FontWeight.w500)),
