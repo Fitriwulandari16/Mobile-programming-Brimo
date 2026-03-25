@@ -275,7 +275,7 @@ class _HomeScreenState extends State<HomeScreen> {
               border: OutlineInputBorder(borderRadius: BorderRadius.circular(30), borderSide: BorderSide.none),
             ),
           ),
-          const SizedBox(height: 20),
+          const SizedBox(height: 45),
           GridView.count(
             shrinkWrap: true,
             physics: const NeverScrollableScrollPhysics(),
